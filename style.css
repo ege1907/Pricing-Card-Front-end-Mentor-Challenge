@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h2, h3, h4, p{
+    margin: 0;
+    padding: 10px;
+}
+
+#main-container{
+    
+    width: 780px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    font-family: karla;
+    font-weight: 400;
+}
+
+#top{
+    display: inline-block;
+    width: 100%;
+    height: 45%;
+    vertical-align: top;
+    background-color: #9be67b;
+    padding: 30px;
+}
+
+#top > h2{
+    color: rgba(186, 54, 177, 1);
+
+}
+
+#top > h4{
+    color: white;
+}
+
+#top > p{
+    color: rgba(222, 91, 213, 1);;
+    
+}
+
+#bottom{
+    width: 100%;
+    height: 55%;
+    
+}
+
+#lBottom{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 50%;
+    background-color: #d851cf;
+    padding: 30px;
+    font-size: 1.2rem;
+    color: #5bff14;
+}
+
+#price-container{
+    padding: 10px;
+    width: 100%;
+}
+
+#price, #pricefreq{
+    display: inline-block;
+    
+}
+
+#price{
+    font-weight: 700;
+    font-size: 2rem;
+    width: 35%;
+    position: relative;
+}   
+#pricefreq{
+    position: absolute;
+    top: 324px;
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    color: rgba(186, 54, 177, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    font-family: karla;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #9be67b;
+    border-style: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #d0ebc5;
+    transition: background-color 0.5s;
+    transform: scale(1.05);
+
+}
+#rBottom{
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background-color: #d660ce;
+    color: #5bff14;
+}
+
+#rBottom > h4{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 1.2rem;
+}
+
+ul{
+    margin left: 0;
+    padding-left: 40px;
+    list-style: none;
+    /* opacity: 0.8; */
+    font-size: 1.12rem
+    
+}
+li{line-height: 22px;}
+
+/* Color Theme Swatches in Hex */
+/* .frontendmentor-1-hex { color: #BA36B1; }
+.frontendmentor-2-hex { color: #FF82F7; }
+.frontendmentor-3-hex { color: #DE5BD5; }
+.frontendmentor-4-hex { color: #41911F; }
+.frontendmentor-5-hex { color: #83DE5B; }
+
+/* Color Theme Swatches in RGBA */
+.frontendmentor-1-rgba { color: rgba(186, 54, 177, 1); }
+.frontendmentor-2-rgba { color: rgba(255, 130, 247, 1); }
+.frontendmentor-3-rgba { color: rgba(222, 91, 213, 1); }
+.frontendmentor-4-rgba { color: rgba(65, 145, 31, 1); }
+.frontendmentor-5-rgba { color: rgba(131, 222, 91, 1); }
+
+/* Color Theme Swatches in HSLA */
+.frontendmentor-1-hsla { color: hsla(304, 54, 47, 1); }
+.frontendmentor-2-hsla { color: hsla(303, 100, 75, 1); }
+.frontendmentor-3-hsla { color: hsla(304, 66, 61, 1); }
+.frontendmentor-4-hsla { color: hsla(102, 64, 34, 1); }
+.frontendmentor-5-hsla { color: hsla(101, 66, 61, 1); }
+ */
